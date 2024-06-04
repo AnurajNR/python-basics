@@ -17,21 +17,21 @@
 # area_of_cone=math.pi*r2**2+math.pi*r2*L
 # print(area_of_cone) 
 
-# prime numbers
-# x=int(input("enter a number"))
-# for i in range (2,x):
-#     if x%i==0:
-#         print("not prime")
-#     break
-# else:
-#     print("it is prime")    
-# # leapyear
+#prime numbers
+x=int(input("enter a number"))
+for i in range (2,x):
+    if x%i==0:
+        print("not prime")
+    break
+else:
+    print("it is prime")    
+# leapyear
 year=int(input("enter the year : "))
 import calendar
 if calendar.isleap(year):
     print("it is a leap year")
 else:
-    print("it is not a leap year")    
+    print("it is not a leap year") 
 
 
     

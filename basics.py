@@ -1,0 +1,4 @@
+#basics
+x=int(imput
+      
+      
